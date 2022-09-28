@@ -12,11 +12,11 @@ namespace FizzBuzz {
             string is_fb = "";
 
             if (n % 3 == 0) {
-                is_fb+= "Fizz";
+                is_fb += "Fizz";
             }
 
             if (n % 5 == 0) {
-                is_fb+= "Buzz";
+                is_fb += "Buzz";
             }
 
             return is_fb == "" ? n.ToString() : is_fb;
